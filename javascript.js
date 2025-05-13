@@ -11,8 +11,6 @@ function upDate(previewPic){
    
        function unDo(){
            x = document.getElementById("image");
-           console.log(previewPic.src);
-           console.log(x);
         x.style.backgroundImage = "url('')";
         x.innerHTML = "Hover over an image below to display here.";
        }
